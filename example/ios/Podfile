@@ -23,6 +23,7 @@ end
 
 target 'RNMapboxGLExample' do
   config = use_native_modules!
+  $ReactNativeMapboxGLIOSVersion = '~> 6.3.0'
   use_react_native!(:path => config["reactNativePath"])
 
   # default version
